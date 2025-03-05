@@ -1,0 +1,11 @@
+[project]
+name = "extended-boolean-model"
+version = "0.1.0"
+description = "Extended boolean model for searching in PDF pages using boolean algebra."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "nltk==3.8.1",
+    "progress==1.6",
+    "pymupdf==1.24.1",
+]
